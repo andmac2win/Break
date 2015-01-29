@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A7A478F1A7A8155001827FE /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7A478E1A7A8155001827FE /* GameData.swift */; };
 		1A9241661A792E6D009B1854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9241651A792E6D009B1854 /* AppDelegate.swift */; };
 		1A9241681A792E6D009B1854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9241671A792E6D009B1854 /* ViewController.swift */; };
 		1A92416B1A792E6D009B1854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9241691A792E6D009B1854 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A7A478E1A7A8155001827FE /* GameData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 		1A9241601A792E6D009B1854 /* Break.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Break.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9241641A792E6D009B1854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A9241651A792E6D009B1854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				1A9241651A792E6D009B1854 /* AppDelegate.swift */,
 				1A9241671A792E6D009B1854 /* ViewController.swift */,
 				1A9241691A792E6D009B1854 /* Main.storyboard */,
+				1A7A478E1A7A8155001827FE /* GameData.swift */,
 				1A9241891A7970AC009B1854 /* LivesView.swift */,
 				1A92418B1A797EB4009B1854 /* Cubano-Regular.otf */,
 				1A92416C1A792E6D009B1854 /* Images.xcassets */,
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A9241681A792E6D009B1854 /* ViewController.swift in Sources */,
+				1A7A478F1A7A8155001827FE /* GameData.swift in Sources */,
 				1A9241661A792E6D009B1854 /* AppDelegate.swift in Sources */,
 				1A92418A1A7970AC009B1854 /* LivesView.swift in Sources */,
 			);
@@ -419,6 +423,7 @@
 				1A9241811A792E6D009B1854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A9241821A792E6D009B1854 /* Build configuration list for PBXNativeTarget "BreakTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +432,7 @@
 				1A9241841A792E6D009B1854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
